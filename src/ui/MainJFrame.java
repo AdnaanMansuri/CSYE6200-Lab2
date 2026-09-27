@@ -9,11 +9,11 @@ import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-public class UserProfileJFrame extends javax.swing.JFrame {
+public class MainJFrame extends javax.swing.JFrame {
 
     private final UserProfile profile = new UserProfile();
 
-    public UserProfileJFrame() {
+    public MainJFrame() {
         initComponents();
     }
 
@@ -244,7 +244,7 @@ public class UserProfileJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_btnSubmitActionPerformed
 
     public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(() -> new UserProfileJFrame().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new MainJFrame().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
