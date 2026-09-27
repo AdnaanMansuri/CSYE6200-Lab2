@@ -43,37 +43,43 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="lblFirstName" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblLastName" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblGender" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblAge" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblPhone" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblEmail" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblPhoto" alignment="0" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="txtFirstName" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                      <Component id="txtLastName" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="rdoMale" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="rdoFemale" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="167" max="-2" attributes="0"/>
+                          <Component id="btnSubmit" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="txtAge" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
-                      <Component id="txtPhone" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                      <Component id="txtEmail" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="btnUpload" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="lblPhotoPreview" min="-2" pref="80" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblFirstName" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblLastName" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblAge" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblGender" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblPhone" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblContinent" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblExperience" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblPhoto" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtFirstName" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+                              <Component id="txtLastName" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+                              <Component id="spnAge" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+                              <Component id="rdoMale" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rdoFemale" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtPhoto" min="-2" pref="125" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  <Component id="btnUpload" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="cmbContinent" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+                              <Component id="scrExperience" alignment="0" min="-2" pref="235" max="-2" attributes="0"/>
+                              <Component id="txtPhone" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
-                      <Component id="btnSubmit" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="40" max="32767" attributes="0"/>
+                  <EmptySpace pref="130" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -85,41 +91,47 @@
                       <Component id="lblFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lblLastName" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtLastName" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblAge" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="spnAge" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lblGender" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="rdoMale" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="rdoFemale" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="lblAge" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtAge" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  <Component id="rdoFemale" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lblPhone" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtPhone" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="lblEmail" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblContinent" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cmbContinent" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="lblPhoto" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnUpload" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblPhotoPreview" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                      <Component id="lblExperience" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="scrExperience" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPhoto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPhoto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnUpload" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
                   <Component id="btnSubmit" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="30" max="32767" attributes="0"/>
+                  <EmptySpace pref="10" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -127,17 +139,29 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="lblFirstName">
           <Properties>
-            <Property name="text" type="java.lang.String" value="First Name"/>
+            <Property name="text" type="java.lang.String" value="First Name:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtFirstName">
         </Component>
         <Component class="javax.swing.JLabel" name="lblLastName">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Last Name"/>
+            <Property name="text" type="java.lang.String" value="Last Name:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtLastName">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblAge">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Age:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="spnAge">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="0" maximum="120" minimum="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+            </Property>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lblGender">
           <Properties>
@@ -160,47 +184,75 @@
             <Property name="text" type="java.lang.String" value="Female"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblAge">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Age"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JTextField" name="txtAge">
-          <Events>
-            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtAgeKeyTyped"/>
-          </Events>
-        </Component>
         <Component class="javax.swing.JLabel" name="lblPhone">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Phone Number"/>
+            <Property name="text" type="java.lang.String" value="Phone:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtPhone">
-          <Events>
-            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtPhoneKeyTyped"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JLabel" name="lblEmail">
+        <Component class="javax.swing.JFormattedTextField" name="txtPhone">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Email"/>
+            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+              <Format format="###-###-####" subtype="-1" type="5"/>
+            </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtEmail">
+        <Component class="javax.swing.JLabel" name="lblContinent">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Continent:"/>
+          </Properties>
         </Component>
+        <Component class="javax.swing.JComboBox" name="cmbContinent">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="7">
+                <StringItem index="0" value="Africa"/>
+                <StringItem index="1" value="Antarctica"/>
+                <StringItem index="2" value="Asia"/>
+                <StringItem index="3" value="Australia"/>
+                <StringItem index="4" value="Europe"/>
+                <StringItem index="5" value="North America"/>
+                <StringItem index="6" value="South America"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblExperience">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Experience:"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="scrExperience">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="txtExperience">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
         <Component class="javax.swing.JLabel" name="lblPhoto">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Photo"/>
+            <Property name="text" type="java.lang.String" value="Photo:"/>
           </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPhoto">
         </Component>
         <Component class="javax.swing.JButton" name="btnUpload">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Upload"/>
+            <Property name="text" type="java.lang.String" value="Upload Photo"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUploadActionPerformed"/>
           </Events>
-        </Component>
-        <Component class="javax.swing.JLabel" name="lblPhotoPreview">
         </Component>
         <Component class="javax.swing.JButton" name="btnSubmit">
           <Properties>

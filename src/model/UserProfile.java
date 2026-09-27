@@ -6,10 +6,11 @@ public class UserProfile {
 
     private String firstName;
     private String lastName;
-    private String gender;
     private int age;
+    private String gender;
     private String phone;
-    private String email;
+    private String continent;
+    private String experience;
     private ImageIcon photo;
 
     public String getFirstName() {
@@ -28,20 +29,20 @@ public class UserProfile {
         this.lastName = lastName;
     }
 
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
     public int getAge() {
         return age;
     }
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public String getPhone() {
@@ -52,12 +53,20 @@ public class UserProfile {
         this.phone = phone;
     }
 
-    public String getEmail() {
-        return email;
+    public String getContinent() {
+        return continent;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setContinent(String continent) {
+        this.continent = continent;
+    }
+
+    public String getExperience() {
+        return experience;
+    }
+
+    public void setExperience(String experience) {
+        this.experience = experience;
     }
 
     public ImageIcon getPhoto() {
@@ -71,9 +80,10 @@ public class UserProfile {
     @Override
     public String toString() {
         return "Name: " + firstName + " " + lastName
-                + "\nGender: " + gender
                 + "\nAge: " + age
+                + "\nGender: " + gender
                 + "\nPhone: " + phone
-                + "\nEmail: " + email;
+                + "\nContinent: " + continent
+                + "\nExperience: " + experience;
     }
 }
